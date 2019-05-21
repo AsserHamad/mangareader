@@ -6,12 +6,11 @@ You only need node installed to begin
 
 ### Installation
 
-Mamma Mia reader requires [Node.js](https://nodejs.org/en/download/) to run.
-Install the dependencies and devDependencies and start the server.
+Mamma Mia the best reader of ALL TIME requires [Node.js](https://nodejs.org/en/download/) to run.
+Install the dependencies
 
 ```sh
-$ npm install -d
-$ node app
+$ npm install
 ```
 ### Running
 In the "public" folder you'll find a "chapters" directory, add folders with the pages inside

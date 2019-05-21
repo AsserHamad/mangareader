@@ -15,15 +15,25 @@ $ node app
 ```
 ### Running
 In the "public" folder you'll find a "chapters" directory, add folders with the pages inside
->public
-  >chapters
-    >001
-        >page1.jpg
-        >page2.jpg
-        >...
-    >002
-        >page1.jpg
-        >page2.jpg
+
+public
+
+...chapters
+
+......001
+
+.........page1.jpg
+
+.........page2.jpg
+
+         ...
+         
+......002
+
+.........page1.jpg
+
+.........page2.jpg
+
 
 The naming conventions do not matter
 

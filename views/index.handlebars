@@ -1,0 +1,16 @@
+<style>
+    html {
+       scroll-behavior: smooth;
+    }
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+    body{
+       background-color: #333 !important;
+    }
+</style>
+<div id="main" class="container-fluid container text-center">
+  {{#each data}}
+    <img class="row" style="width: 100%;" src="chapters/{{this}}"><br>
+  {{/each}}
+</div>

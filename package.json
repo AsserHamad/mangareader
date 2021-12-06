@@ -13,13 +13,10 @@
     "body-parser": "^1.18.3",
     "dotenv": "^6.1.0",
     "express": "^4.16.4",
-    "express-handlebars": "^3.0.2",
     "fs": "0.0.1-security",
     "http": "0.0.0",
-    "mongoose": "^5.3.11",
     "morgan": "^1.9.1",
     "nodemon": "^1.19.0",
-    "path": "^0.12.7",
-    "validator": "^10.9.0"
+    "path": "^0.12.7"
   }
 }

@@ -2,13 +2,11 @@ const express = require('express');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
 const http = require('http');
-const port = process.env.PORT || 3000;
+const port = 3000;
 const app = express();
 const exphbs = require('express-handlebars');
 
 const main = require('./routes/main');
-
-require('dotenv').config();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
